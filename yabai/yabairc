@@ -4,8 +4,7 @@ yabai -m config layout bsp
 # New window spawns to the right if vertical split, or bottom if horizontal split
 yabai -m config window_placement second_child
 
-
-# padding set to 12px
+# padding set to 10px
 yabai -m config top_padding 10
 yabai -m config bottom_padding 10
 yabai -m config left_padding 10
@@ -32,3 +31,4 @@ yabai -m rule --add app="^Karabiner-Elements$" manage=off
 
 yabai -m config external_bar all:$(sketchybar --query bar | jq .height):0
 
+@REM borders active_color=0xffffffff inactive_color=0xff494d64 width=3.5 &

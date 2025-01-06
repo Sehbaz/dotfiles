@@ -2,7 +2,7 @@
 
 export WHITE=0xffffffff
 
-# -- Teal Scheme --
+# # -- Teal Scheme --
 # export BAR_COLOR=0xff001f30
 # export ITEM_BG_COLOR=0xff003547
 # export ACCENT_COLOR=0xff2cf9ed
@@ -42,3 +42,11 @@ export ACCENT_COLOR=0xffffffff
 # export BAR_COLOR=0xff2d2b02
 # export ITEM_BG_COLOR=0xff8e7e0a
 # export ACCENT_COLOR=0xfff7fc17
+
+# -- Developer Scheme --
+# export BAR_COLOR=0xff1e1e1e
+# export ITEM_BG_COLOR=0xff252526
+# export ACCENT_COLOR=0xff2cf9ed
+
+
+
